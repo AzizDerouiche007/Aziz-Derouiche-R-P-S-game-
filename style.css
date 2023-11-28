@@ -1,1 +1,190 @@
+/*this it the styling sheet for our three page */
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+/*this is the background image for the game page called by class*/
+.orangebackground {
+  background-image: url('images/background orange.jpg'); 
+}
+
+/*this is the background gif for the landing page called by class*/
+.fightclub {
+  background-image: url('images/street_fight_8_bit_for_dribbble.gif');
+}
+/*this is the background image for the rules page called by class*/
+.bluebackground{
+  background-image: url('images/background\ image.jpg');
+}
+
+/*this is the button styling for the start game in the landing page */
+.start {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 45%;
+  transition-duration: 0.8s;
+}
+
+/*this is the H1 styling for the rules page */
+.rules{
+  color: black;
+  text-align: center;
+  margin-left: 5%;
+  font-size: 4pc;
+  text-shadow: 1px 1px 2px yellow, 0 0 1em red, 0 0 0.2em blue;
+
+}
+/*this is the H1 styling for the rules page */
+
+.headtext {
+  color: black;
+  text-align: center;
+  margin-left: 5%;
+  font-size: 4pc;
+  text-shadow: 1px 1px 2px yellow, 0 0 1em red, 0 0 0.2em blue;
+}
+
+/*this is the H1 styling for the GAME page */
+.fun {
+  color: black;
+  text-align: center;
+  margin-left: 5%;
+  font-size: 4pc;
+  text-shadow: 1px 1px 2px yellow, 0 0 1em red, 0 0 0.2em blue;
+  margin-left: 25px; 
+}
+
+/*this is the PROVERB styling for the game page */
+.proverb {
+  color: whitesmoke;
+  font-family: 'Rubik';
+  text-align: center;
+  margin-left: 5%;
+  font-size: 3pc;
+  text-shadow: 1px 1px 2px yellow, 0 0 1em red, 0 0 0.2em blue;
+}
+
+
+/*this is the rock picture styling for the game page */
+
+.rock {
+  border-radius: 50%;
+  width: 110px;
+  position: absolute;
+  top: 50%;
+  left: 39%;
+  transform: translate(-50%, -50%);
+}
+/*this is the paper picture styling for the game page */
+
+.paper {
+  border-radius: 50%;
+  width: 110px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/*this is the scissors picture styling for the game page */
+.scissors {
+  border-radius: 50%;
+  width: 110px;
+  position: absolute;
+  top: 50%;
+  left: auto; 
+  right: 31%; 
+  transform: translate(-50%, -50%);
+}
+/*this is the nav bar  for the game page */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(255, 166, 0, 0.499);
+}
+/*the navbar position*/
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+li a:hover {
+  background-color: whitesmoke;
+}
+/*the container of the buttons*/
+.container {
+  max-width: 450px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-top: 15%;
+}
+/*styling of the options(rock paper scissors) option*/
+button {
+  font-size: 16px;
+  margin: 30px;
+  padding: 10px 20px;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+/*the styling for the result after the player chooses an option */
+#result {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+#result span {
+  font-weight: bold;
+
+}
+
+/*styling for the who beats who text */
+.whobeatswho{
+  color: black;
+  text-align: center;
+  margin-left: 5%;
+  margin-top: 0%;
+  font-size: 2.5pc;
+  text-shadow: 1px 1px 2px whitesmoke, 0 0 1em red, 0 0 0.2em blue;;
+}
+
+/*styling for the rules picture in the rules page*/
+.rulespic{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 47%;
+}
+/*stylyng for the button that takes us from our rules page to game page*/
+.gotogame{
+    background-color: #9de8cc;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 30px;
+    margin-left: 40%;
+    transition-duration: 0.8s;
+  }
 

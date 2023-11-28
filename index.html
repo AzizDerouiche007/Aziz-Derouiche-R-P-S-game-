@@ -1,1 +1,39 @@
+<!--This the game page where you chose your option and it displays the result(win/lose/draw) it is linked
+   to the rules page and the landing page through a navbar -->
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <ul>
+        <li><a href="reception.html">Home</a></li>
+        <li><a href="rules.html">Rules</a></li>
+      </ul>
+    <title>R-P-S Game</title>
+    <h1 class="headtext">let's play a quick game </h1>
+    <h2 class="proverb">May the odds forver be in your favor </h2>
+  
+
+
+</head>
+<body class="orangebackground">
+<img class="paper" src="images/paper.png"/>
+<img class="rock" src="images/rock.png"/>
+<img class="scissors" src="images/scissors.png"/>
+
+<div class="container">
+<button onclick="playGame('rock')">Rock</button>
+<button onclick="playGame('paper')">Paper</button>
+<button onclick="playGame('scissors')">Scissors</button>
+<p id="result"></p>
+</div>
+
+
+<script src="jquery-3.7.1.min.js"></script>
+<script src="main.js"></script>
+
+</body>
+</html>
